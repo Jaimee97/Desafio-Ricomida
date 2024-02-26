@@ -1,0 +1,186 @@
+.navbar{
+    background-color: #373A3C;
+}
+
+.navbar-brand{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37pt;
+    color: #ffffff;
+}
+
+.nav-item .nav-link{
+    color: #ffffff;
+    font-size: 16pt;
+}
+
+.img-principal{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-principal{
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    color: #373A3C;
+}
+
+.hr{
+    border: 1px solid #373A3C;
+    opacity: 1;
+}
+
+.texto-principal{
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    color: #373A3C;
+    margin-bottom: 24px;
+}
+
+.enlaces-principales a{
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #373A3C;
+    padding: 10px 14px;
+    margin-right: 24px ;
+}
+  
+.img-carrusel{
+    width: 24%;
+    height: 210px;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.description-section{
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+}
+
+.recetas-section h2{
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+}
+
+.card{
+    margin: 0 auto;
+    height: 100%;
+}
+
+.card h5{
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 23pt;
+}
+
+.card p{
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+.suscribe-section{
+    background-color: #DC3545;
+    padding: 150px 150px 300px;
+}
+
+.suscribe-section h3{
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    color: #ffffff;
+}
+
+.suscribe-section p{
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 30pt;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.suscribe-section p span{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.suscribe-section a{
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 11px 90px;
+}
+
+footer{
+    background-color: #373A3C;
+    padding: 40px 0;
+}
+
+footer span{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37pt;
+    color: #ffffff;
+}
+
+@media  screen and (max-width: 576px) {
+    .titulo-principal{
+        font-size: 25pt;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .texto-principal{
+        text-align: center;
+        font-size: 16pt;
+    }
+
+    .enlaces-principales{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .enlaces-principales a{
+        font-size: 10pt;
+        margin-right: 0;
+    }
+
+    .recetas-section h2{
+        font-size: 25pt;
+    }
+
+    .card{
+        margin-bottom: 20px;
+        height: 500px;
+    }
+
+    .suscribe-section{
+        background-color: #DC3545;
+        padding: 100px 10px;
+    }
+
+    .suscribe-section h3{
+        font-size: 30pt;
+    }
+
+    .suscribe-section p{
+        font-size: 20pt;
+    }
+}
